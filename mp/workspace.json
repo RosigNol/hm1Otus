@@ -1,0 +1,804 @@
+{
+  "id" : 1,
+  "name" : "МП",
+  "description" : "Архитектура решения мобильного приложения",
+  "lastModifiedDate" : "2024-01-30T12:09:07Z",
+  "lastModifiedAgent" : "structurizr-javascript",
+  "properties" : {
+    "structurizr.dsl" : "d29ya3NwYWNlICLQnNCfIiAi0JDRgNGF0LjRgtC10LrRgtGD0YDQsCDRgNC10YjQtdC90LjRjyDQvNC+0LHQuNC70YzQvdC+0LPQviDQv9GA0LjQu9C+0LbQtdC90LjRjyIgewoKICAgIG1vZGVsIHsKCiMg0J/QvtC70YzQt9C+0LLQsNGC0LXQu9C4CiAgICAgICAgb3BlcmF0b3IgPSBwZXJzb24gItCT0YDQsNC20LTQsNC90LjQvSIgItCY0YHQv9C+0LvRjNC30YPQtdGCINCc0J8g0LTQu9GPINC/0YDQtdC00L7RgdGC0LDQstC70LXQvdC40Y8g0LTQvtC60YPQvNC10L3RgtC+0LIiCgoKIyDQodC40YHRgtC10LzRiwoKICAgICAgICBjenAgPSBzb2Z0d2FyZVN5c3RlbSAi0KHQl9CfICjRgdC40YHRgtC10LzQsCDQt9Cw0Y/QstC+0Log0L/QvtC70YzQt9C+0LLQsNGC0LXQu9C10LkpIiAi0J/RgNC10LTQvtGB0YLQsNCy0LvRj9C10YIg0YHQstC10LTQtdC90LjRjyDQviDQs9GA0LDQttC00LDQvdC40L3QtSDQv9C+INGC0L7QutC10L3RgyDQodCj0KMiINCc0L7RgdC60LLQsAogICAgICAgIHN1dSA9IHNvZnR3YXJlU3lzdGVtICLQodCj0KMgKNGB0LjRgdGC0LXQvNCwINGD0YfQtdGC0LAg0L/QvtC70YzQt9C+0LLQsNGC0LXQu9C10LkpIiAi0J/RgNC+0LLQvtC00LjRgiDQsNGD0YLQtdC90YLQuNGE0LjQutCw0YbQuNGOINC/0L7Qu9GM0LfQvtCy0LDRgtC10LvQtdC5IiDQnNC+0YHQutCy0LAKICAgICAgICBzcGx1bmsgPSBzb2Z0d2FyZVN5c3RlbSAi0KHQuNGB0YLQtdC80LAg0LbRg9GA0L3QsNC70LjRgNC+0LLQsNC90LjRjyAoU3BsdW5rKSIgItCe0LHQtdGB0L/QtdGH0LjQstCw0LXRgiDRgdC+0YXRgNCw0L3QtdC90LjQtSDQttGD0YDQvdCw0LvQvtCyINC00LXQudGB0YLQstC40Lkg0L/QvtC70YzQt9C+0LLQsNGC0LXQu9C10LkiCiAgICAgICAgbXBhbmRyb2lkID0gc29mdHdhcmVTeXN0ZW0gItCc0L7QsdC40LvRjNC90L7QtSDQv9GA0LjQu9C+0LbQtdC90LjQtSAgKEFuZHJvaWQpIiAi0J/RgNC10LTQvtGB0YLQsNCy0LvRj9C10YIg0LTQvtGB0YLRg9C/INC6INC00L7QutGD0LzQtdC90YLQsNC8INC40Lcg0L/RgNC+0YTQuNC70Y8g0LPRgNCw0LbQtNCw0L3QuNC90LAgKEtvdGxpbikiINCc0L7RgdC60LLQsAogICAgICAgIG1waW9zID0gc29mdHdhcmVTeXN0ZW0gItCc0L7QsdC40LvRjNC90L7QtSDQv9GA0LjQu9C+0LbQtdC90LjQtSAoaU9TKSIgItCf0YDQtdC00L7RgdGC0LDQstC70Y/QtdGCINC00L7RgdGC0YPQvyDQuiDQtNC+0LrRg9C80LXQvdGC0LDQvCDQuNC3INC/0YDQvtGE0LjQu9GPINCz0YDQsNC20LTQsNC90LjQvdCwIChTd2lmdCkiINCc0L7RgdC60LLQsAogICAgICAgIG1waHVhd2VpID0gc29mdHdhcmVTeXN0ZW0gItCc0L7QsdC40LvRjNC90L7QtSDQv9GA0LjQu9C+0LbQtdC90LjQtSAgKEh1YXdlaSkiICLQn9GA0LXQtNC+0YHRgtCw0LLQu9GP0LXRgiDQtNC+0YHRgtGD0L8g0Log0LTQvtC60YPQvNC10L3RgtCw0Lwg0LjQtyDQv9GA0L7RhNC40LvRjyDQs9GA0LDQttC00LDQvdC40L3QsCDQvdCwINGB0LzQsNGA0YTQvtC90LDRhSBIdWF3ZWkgKEtvdGxpbikiINCc0L7RgdC60LLQsAogICAgICAgIG1wID0gc29mdHdhcmVTeXN0ZW0gItCc0L7QsdC40LvRjNC90L7QtSDQv9GA0LjQu9C+0LbQtdC90LjQtSAo0LHRjdC60LXQvdC0KSIgItCe0LHQtdGB0L/QtdGH0LjQstCw0LXRgiDQstGL0L/QvtC70L3QtdC90LjQtSDQsdC40LfQvdC10YEg0YTRg9C90LrRhtC40Lkg0L/RgNC40LvQvtC20LXQvdC40Y8gKERqYW5nbywgcHl0aG9uKSIg0JzQvtGB0LrQstCwIHsKICAgICAgICAJbXBfbXBjb3JlID0gY29udGFpbmVyICIxLjEg0KHQtdGA0LLQtdGA0L3QsNGPINGH0LDRgdGC0Ywg0JzQnyDQn9CU0KHQoyIgItCe0LHQtdGB0L/QtdGH0LjQstCw0LXRgiDRgNCw0LHQvtGC0YMg0LzQvtCx0LjQu9GM0L3QvtCz0L4g0L/RgNC40LvQvtC20LXQvdC40Y8g0Lgg0LHQsNC30L7QstGL0LUg0YTRg9C90LrRhtC40LgiICJEamFuZ28sIHB5dGhvbiIKICAgICAgICAJbXBfY29yZV9kYiA9IGNvbnRhaW5lciAiMS4xLjEg0J7QsdGJ0LXQtSDRhdGA0LDQvdC40LvQuNGJ0LUiICLQpdGA0LDQvdC40YIg0L3QsNGB0YLRgNC+0LnQutC4INC/0L7Qu9GM0LfQvtCy0LDRgtC10LvRjyDQuCDQttGD0YDQvdCw0LvRiyIgIlBvc3RncmVTUUwiIGRiCiAgICAgICAgCW1wX3Nlc3Npb25fcmVkaXMgPSBjb250YWluZXIgIjEuMS4yINCl0YDQsNC90LjQu9C40YnQtSDRgdC10YHRgdC40Lkg0L/QvtC70YzQt9C+0LLQsNGC0LXQu9C10LkiICLQpdGA0LDQvdC40YIg0YHQstC10LTQtdC90LjRjyDQv9C+INGB0LXRgdGB0LjRj9C8IiAiUmVkaXMiIGRiCiAgICAgICAgCW1wX3Byb2ZpbGUgPSBjb250YWluZXIgIjEuMyDQnNC40LrRgNC+0YHQtdGA0LLQuNGBINGB0LHQvtGA0LAg0YHQstC10LTQtdC90LjQuSDQv9C+0LvRjNC30L7QstCw0YLQtdC70Y8iICLQn9C+0LvRg9GH0LDQtdGCINGB0LLQtdC00LXQvdC40Y8g0L4g0L/QvtC70YzQt9C+0LLQsNGC0LXQu9GP0YUg0LjQtyDQstC90LXRiNC90LjRhSDQuNGB0YLQvtGH0L3QuNC60L7QsiDQuCDRgdC+0YXRgNCw0L3Rj9C10YIg0LjRhSDQsiDRhdGA0LDQvdC40LvQuNGJ0LUiICJEamFuZ28sIHB5dGhvbiIKICAgICAgICAJbXBfcHJvZmlsZV9kYiA9IGNvbnRhaW5lciAiMS4zLjEg0KXRgNCw0L3QuNC70LjRidC1INGB0LLQtdC00LXQvdC40Lkg0L/QvtC70YzQt9C+0LLQsNGC0LXQu9C10LkiICLQpdGA0LDQvdC40YIg0LTQsNC90L3Ri9C1INC/0L7Qu9GM0LfQvtCy0LDRgtC10LvQtdC5INC/0L4g0YHQtdGB0YHQuNGP0LwiICJSZWRpcyIgZGIKICAgICAgICAJbXBfY3pwID0gY29udGFpbmVyICIxLjQg0JzQuNC60YDQvtGB0LXRgNCy0LjRgSDQv9C+0LvRg9GH0LXQvdC40Y8g0YHQstC10LTQtdC90LjQuSDRgdC40YHRgtC10LzRiyDQt9Cw0Y/QstC+0Log0L/QvtC70YzQt9C+0LLQsNGC0LXQu9C10LkiICLQlNC10LvQsNC10YIg0LfQsNC/0YDQvtGB0Ysg0LIg0YHQuNGB0YLQtdC80Ysg0LfQsNGP0LLQvtC6INC/0L7Qu9GM0LfQvtCy0LDRgtC10LvQtdC5IiAiRGphbmdvLCBweXRob24iCiAgICAgICAgCW1wX2N6cF9kYiA9IGNvbnRhaW5lciAiMS40LjEg0KHQtdGA0LLQuNGB0L3QsNGPINCR0JQiICLQpdGA0LDQvdC40YIg0YHRhdC10LzRgyDQtNCw0L3QvdGL0YUg0Lgg0YHQv9GA0LDQstC+0YfQvdC40LrQuCDQtNC70Y8g0LzQuNC60YDQvtGB0LXRgNCy0LjRgdCwIiAiUG9zdGdyZVNRTCIgZGIKICAgICAgICAJbXBfc3V1X2RhdGEgPSBjb250YWluZXIgIjEuNSDQnNC40LrRgNC+0YHQtdGA0LLQuNGBINC/0L7Qu9GD0YfQtdC90LjRjyDQsNGC0YDQuNCx0YPRgtC+0LIg0L/QvtC70YzQt9C+0LLQsNGC0LXQu9GPINGB0LjRgdGC0LXQvNGLINGD0YfQtdGC0LAg0L/QvtC70YzQt9C+0LLQsNGC0LXQu9C10LkiICLQntCx0LXRgdC/0LXRh9C40LLQsNC10YIg0L/QtdGA0LLQuNGH0L3QvtC1INC/0L7Qu9GD0YfQtdC90LjQtSDRgdCy0LXQtNC10L3QuNC5INC+INC/0L7Qu9GM0LfQvtCy0LDRgtC10LvQtSDQuNC3INGB0LjRgdGC0LXQvNGLINGD0YfQtdGC0LAg0L/QvtC70YzQt9C+0LLQsNGC0LXQu9C10LkiICJEamFuZ28sIHB5dGhvbiIKICAgICAgICAJbXBfc3V1X2RhdGFfZGIgPSBjb250YWluZXIgIjEuNS4xINCh0LXRgNCy0LjRgdC90LDRjyDQkdCUIiAi0KXRgNCw0L3QuNGCINGB0YXQtdC80YMg0LTQsNC90L3Ri9GFINC4INGB0L/RgNCw0LLQvtGH0L3QuNC60Lgg0LTQu9GPINC80LjQutGA0L7RgdC10YDQstC40YHQsCIgIlBvc3RncmVTUUwiIGRiCiAgICAgICAgfQogICAgICAgIAogICAgICAgIAogICAgICAgICMgZm9yIGN0cmwtYyAmIGN0cmwtdgogICAgICAgIAogICAgICAgICMJbXBfeHh4ID0gY29udGFpbmVyICIxLngg0JzQuNC60YDQvtGB0LXRgNCy0LjRgSDQv9C+0LvRg9GH0LXQvdC40Y8g0YHQstC10LTQtdC90LjQuSDQuNC3IHh4eCIgItCe0LHQtdGB0L/QtdGH0LjQstCw0LXRgiDQv9C+0LvRg9GH0LXQvdC40LUg0JzQnyDRgdCy0LXQtNC10L3QuNC5INC40LcgeHh4IiAiRGphbmdvLCBweXRob24iCiAgICAgICAgIwltcF94eHhfZGIgPSBjb250YWluZXIgIjEueC4xINCh0LXRgNCy0LjRgdC90LDRjyDQkdCUIiAi0KXRgNCw0L3QuNGCINGB0YXQtdC80YMg0LTQsNC90L3Ri9GFINC4INGB0L/RgNCw0LLQvtGH0L3QuNC60Lgg0LTQu9GPINC80LjQutGA0L7RgdC10YDQstC40YHQsCIgIlBvc3RncmVTUUwiIGRiCgojIyDQktC30LDQuNC80L7QtNC10LnRgdGC0LLQuNGPINGB0LjRgdGC0LXQvAogICAgICAgIG9wZXJhdG9yIC0+IG1wYW5kcm9pZCAi0JLQt9Cw0LjQvNC+0LTQtdC50YHRgtCy0YPQtdGCINGBINC/0YDQuNC70L7QttC10L3QuNC10LwiICLQpNC40LfQuNGH0LXRgdC60LgiCiAgICAgICAgb3BlcmF0b3IgLT4gbXBpb3MgItCS0LfQsNC40LzQvtC00LXQudGB0YLQstGD0LXRgiDRgSDQv9GA0LjQu9C+0LbQtdC90LjQtdC8IiAi0KTQuNC30LjRh9C10YHQutC4IgogICAgICAgIG9wZXJhdG9yIC0+IG1waHVhd2VpICLQktC30LDQuNC80L7QtNC10LnRgdGC0LLRg9C10YIg0YEg0L/RgNC40LvQvtC20LXQvdC40LXQvCIgItCk0LjQt9C40YfQtdGB0LrQuCIKICAgICAgICAxcyA9IG1wIC0+IHN1dSAiMSwyINCQ0YPRgtC10L3RgtC40YTQuNC60LDRhtC40Y8g0Lgg0YDQsNCx0L7RgtCwINGBINGC0L7QutC10L3QsNC80Lgg0L/QvtC70YzQt9C+0LLQsNGC0LXQu9C10LkiICJSRVNUIgogICAgICAgIDRzID0gbXAgLT4gc3V1ICI0LiDQn9C+0LvRg9GH0LXQvdC40LUg0LDRgtGA0LjQsdGD0YLQvtCyINC/0L7Qu9GM0LfQvtCy0LDRgtC10LvRjyDRgdC40YHRgtC10LzRiyDRg9GH0LXRgtCwINC/0L7Qu9GM0LfQvtCy0LDRgtC10LvQtdC5IiAiUkVTVCIKICAgICAgICA1cyA9IG1wIC0+IGN6cCAiNS4g0JfQsNC/0YDQvtGBINC4INC/0YDQtdC00L7RgdGC0LDQstC70LXQvdC40LUg0YHQstC10LTQtdC90LjQuSDQv9C+0LvRjNC30L7QstCw0YLQtdC70Y8g0YHQuNGB0YLQtdC80Ysg0LfQsNGP0LLQvtC6INC/0L7Qu9GM0LfQvtCy0LDRgtC10LvQtdC5IiAiUkVTVCIKICAgICAgICA5cyA9IG1wIC0+IHNwbHVuayAiOS4g0JbRg9GA0L3QsNC70LjRgNC+0LLQsNC90LjQtSIgInN0ZG91dCIKICAgICAgICBtcGFuZHJvaWQgLT4gc3V1ICIzLiDQkNGD0YLQtdC90YLQuNGE0LjQutCw0YbQuNGPINC/0L4g0YDQtdC00LjRgNC10LrRgtGDIiAiSFRUUFMiCiAgICAgICAgbXBpb3MgLT4gc3V1ICIzLiDQkNGD0YLQtdC90YLQuNGE0LjQutCw0YbQuNGPINC/0L4g0YDQtdC00LjRgNC10LrRgtGDIiAiSFRUUFMiCiAgICAgICAgbXBodWF3ZWkgLT4gc3V1ICIzLiDQkNGD0YLQtdC90YLQuNGE0LjQutCw0YbQuNGPINC/0L4g0YDQtdC00LjRgNC10LrRgtGDIiAiSFRUUFMiCgojIyDQmtC+0L3QtdGGINCy0LfQsNC40LzQvtC00LXQudGB0YLQstC40Y8g0YHQuNGB0YLQtdC8CgojINCS0LfQsNC40LzQvtC00LXQudGB0YLQstC40LUg0LrQvtC90YLQtdC50L3QtdGA0L7QsgoKICAgICAgICAxYyA9IG1wX21wY29yZSAtPiBzdXUgIjEsMiDQn9GA0L7QstC10YDQutCwINGB0LXRgdGB0LjQuCDRgdC40YHRgtC10LzRiyDRg9GH0LXRgtCwINC/0L7Qu9GM0LfQvtCy0LDRgtC10LvQtdC5IiAiUkVTVCIKCiAgICAgICAgNV8xYyA9IG1wX2N6cCAtPiBjenAgIjUuINCX0LDQv9GA0L7RgSDQuCDQv9GA0LXQtNC+0YHRgtCw0LLQu9C10L3QuNC1INGB0LLQtdC00LXQvdC40Lkg0L/QvtC70YzQt9C+0LLQsNGC0LXQu9GPINGB0LjRgdGC0LXQvNGLINC30LDRj9Cy0L7QuiDQv9C+0LvRjNC30L7QstCw0YLQtdC70LXQuSIgIlJFU1QiCiAgICAgICAgOWMxID0gbXBfbXBjb3JlIC0+IHNwbHVuayAiOS4g0JbRg9GA0L3QsNC70LjRgNC+0LLQsNC90LjQtSIgInN0ZG91dCwganNvbiIKICAgICAgICA5YzIgPSBtcF9wcm9maWxlIC0+IHNwbHVuayAiOS4g0JbRg9GA0L3QsNC70LjRgNC+0LLQsNC90LjQtSIgInN0ZG91dCwganNvbiIKICAgICAgICA5YzMgPSBtcF9jenAgLT4gc3BsdW5rICI5LiDQltGD0YDQvdCw0LvQuNGA0L7QstCw0L3QuNC1IiAic3Rkb3V0LCBqc29uIgoKICAgICAgICBtcGFuZHJvaWQgLT4gbXBfbXBjb3JlICLQl9Cw0L/RgNC+0YEg0YHQstC10LTQtdC90LjQuSDQv9C+0LvRjNC30L7QstCw0YLQtdC70Y8g0LTQu9GPINC+0YLQvtCx0YDQsNC20LXQvdC40Y8iICJSRVNUIgogICAgICAgIG1waW9zIC0+IG1wX21wY29yZSAi0JfQsNC/0YDQvtGBINGB0LLQtdC00LXQvdC40Lkg0L/QvtC70YzQt9C+0LLQsNGC0LXQu9GPINC00LvRjyDQvtGC0L7QsdGA0LDQttC10L3QuNGPIiAiUkVTVCIKICAgICAgICBtcGh1YXdlaSAtPiBtcF9tcGNvcmUgItCX0LDQv9GA0L7RgSDRgdCy0LXQtNC10L3QuNC5INC/0L7Qu9GM0LfQvtCy0LDRgtC10LvRjyDQtNC70Y8g0L7RgtC+0LHRgNCw0LbQtdC90LjRjyIgIlJFU1QiCgogICAgICAgIDE5YyA9IG1wX21wY29yZSAtPiBtcF9zZXNzaW9uX3JlZGlzICIxOS4g0J7QsdC90L7QstC70LXQvdC40LUg0YHQstC10LTQtdC90LjQuSDQviDRgdC10YHRgdC40Y/RhSIgIm5vU1FMIgogICAgICAgIDIwYyA9IG1wX21wY29yZSAtPiBtcF9jb3JlX2RiICIyMC4g0KHQvtGF0YDQsNC90Y/QtdGCINC40L3RhNC+0YDQvNCw0YbQuNGOINC+INC90LDRgdGC0YDQvtC50LrQsNGFINC/0L7Qu9GM0LfQvtCy0LDRgtC10LvQtdC5LCDQv9C+0LvRg9GH0LDQtdGCINGB0YXQtdC80YMg0LTQsNC90L3Ri9GFLCDQttGD0YDQvdCw0LvQuNGA0YPQtdGCINCy0YXQvtC00Ysg0L/QvtC70YzQt9C+0LLQsNGC0LXQu9C10LkiICJTUUwiCgojINCS0YvQtNC10LvQtdC90LjQtSDQvNC40LrRgNC+0YHQtdGA0LLQuNGB0LAg0YHQsdC+0YDQsCDQtNCw0L3QvdGL0YUKICAgICAgICA0YzEgPSBtcF9zdXVfZGF0YSAtPiBzdXUgIjQuINCf0L7Qu9GD0YfQtdC90LjQtSDQsNGC0YDQuNCx0YPRgtC+0LIg0L/QvtC70YzQt9C+0LLQsNGC0LXQu9GPINGB0LjRgdGC0LXQvNGLINGD0YfQtdGC0LAg0L/QvtC70YzQt9C+0LLQsNGC0LXQu9C10LkiICJSRVNUIgogICAgICAgIDIxYzEgPSBtcF9wcm9maWxlIC0+IG1wX2N6cCAiMjEuINCX0LDQv9GA0L7RgSDRgdCy0LXQtNC10L3QuNC5INC/0L4g0L/QvtC70YzQt9C+0LLQsNGC0LXQu9GOIiAiUkVTVCIKICAgICAgICAyMWMyID0gbXBfbXBjb3JlIC0+IG1wX3Byb2ZpbGUgIjIxLiDQl9Cw0L/RgNC+0YEg0YHQstC10LTQtdC90LjQuSDQv9C+INC/0L7Qu9GM0LfQvtCy0LDRgtC10LvRjiIgIlJFU1QiCiAgICAgICAgMjMgPSBtcF9wcm9maWxlIC0+IG1wX3Byb2ZpbGVfZGIgIjIzLiDQp9GC0LXQvdC40LUsINGB0L7RhdGA0LDQvdC10L3QuNC1INC4INGD0LTQsNC70LXQvdC40LUg0YHQstC10LTQtdC90LjQuSDQv9C+0LvRjNC30L7QstCw0YLQtdC70Y8iICJub1NRTCIKICAgICAgICAyNGMxID0gbXBfY3pwIC0+IG1wX2N6cF9kYiAiMjQuINCf0L7Qu9GD0YfQtdC90LjQtS/QvtCx0L3QvtCy0LvQtdC90LjQtSDRgdGF0LXQvNGLINC00LDQvdC90YvRhSwg0YHQv9GA0LDQstC+0YfQvdC40LrQvtCyIiAiU1FMIgogICAgICAgIDRjMiA9IG1wX3Byb2ZpbGUgLT4gbXBfc3V1X2RhdGEgIjQuINCX0LDQv9GA0L7RgSDQsNGC0YDQuNCx0YPRgtC+0LIg0L/QvtC70YzQt9C+0LLQsNGC0LXQu9GPINGB0LjRgdGC0LXQvNGLINGD0YfQtdGC0LAg0L/QvtC70YzQt9C+0LLQsNGC0LXQu9C10LkiICJSRVNUIgogICAgICAgIDI0YzIgPSBtcF9zdXVfZGF0YSAtPiBtcF9zdXVfZGF0YV9kYiAiMjQuINCf0L7Qu9GD0YfQtdC90LjQtS/QvtCx0L3QvtCy0LvQtdC90LjQtSDRgdGF0LXQvNGLINC00LDQvdC90YvRhSwg0YHQv9GA0LDQstC+0YfQvdC40LrQvtCyIiAiU1FMIgogICAgICAgIDI0YzMgPSBtcF9wcm9maWxlIC0+IG1wX3Byb2ZpbGVfZGIgIjI0LiDQn9C+0LvRg9GH0LXQvdC40LUv0L7QsdC90L7QstC70LXQvdC40LUg0YHRhdC10LzRiyDQtNCw0L3QvdGL0YUsINGB0L/RgNCw0LLQvtGH0L3QuNC60L7QsiIgIlNRTCIKICAgICAgICA5YzcgPSBtcF9zdXVfZGF0YSAtPiBzcGx1bmsgIjkuINCW0YPRgNC90LDQu9C40YDQvtCy0LDQvdC40LUiICJzdGRvdXQsIGpzb24iCgojINCa0L7QvdC10YYg0LLQt9Cw0LjQvNC+0LTQtdC50YHRgtCy0LjRjyDQutC+0L3RgtC10LnQvdC10YDQvtCyCgogICAgfQoKICAgIHZpZXdzIHsKCiAgICAgICAgc3lzdGVtbGFuZHNjYXBlICJtcC0wMS1TeXN0ZW1MYW5kc2NhcGUiICLQodC40YHRgtC10LzQvdGL0Lkg0LvQsNC90LTRiNCw0YTRgiIgewogICAgICAgICAgICB0aXRsZSAiW9C80L7QsdC40LvRjNC90L7QtSDQv9GA0LjQu9C+0LbQtdC90LjQtS0wMV0g0KHRhdC10LzQsCDRgdC40YHRgtC10LzQvdC+0LPQviDQu9Cw0L3QtNGI0LDRhNGC0LAg0YDQsNCx0L7RgtGLINC80L7QsdC40LvRjNC90L7Qs9C+INC/0YDQuNC70L7QttC10L3QuNGPIgogICAgICAgICAgICBpbmNsdWRlICoKICAgICAgICB9CgogICAgICAgIGNvbnRhaW5lciBtcCAibXAtMDItQ29udGFpbmVycyIgItCU0LjQsNCz0YDQsNC80LzQsCDQutC+0L3RgtC10LnQvdC10YDQvtCyIiB7CiAgICAgICAgICAgIHRpdGxlICJb0LzQvtCx0LjQu9GM0L3QvtC1INC/0YDQuNC70L7QttC10L3QuNC1LTAyXSDQodGF0LXQvNCwINC60L7QvdGC0LXQudC90LXRgNC+0LIg0LHRjdC60LXQvdC00LAg0LzQvtCx0LjQu9GM0L3QvtCz0L4g0L/RgNC40LvQvtC20LXQvdC40Y8iCiAgICAgICAgICAgIGluY2x1ZGUgKgogICAgICAgIH0KCgogICAgICAgIHN0eWxlcyB7CgogICAgICAgICAgICBlbGVtZW50ICJQZXJzb24iIHsKICAgICAgICAgICAgICAgIHNoYXBlIHBlcnNvbgogICAgICAgICAgICAgICAgYmFja2dyb3VuZCAjMDg0MjdiCiAgICAgICAgICAgICAgICBjb2xvciAjZmZmZmZmCiAgICAgICAgICAgIH0KCiAgICAgICAgICAgIGVsZW1lbnQgZGIgewogICAgICAgICAgICAgICAgc2hhcGUgY3lsaW5kZXIKICAgICAgICAgICAgICAgICNiYWNrZ3JvdW5kICMwODQyN2IKICAgICAgICAgICAgICAgICNjb2xvciAjZmZmZmZmCiAgICAgICAgICAgIH0KCiAgICAgICAgICAgIGVsZW1lbnQg0JzQvtGB0LrQstCwIHsKICAgICAgICAgICAgICAgIGJhY2tncm91bmQgI0NDMjIyMgogICAgICAgICAgICAgICAgY29sb3IgI2ZmZmZmZgogICAgICAgICAgICB9CgogICAgICAgICAgICByZWxhdGlvbnNoaXAgcHJvYmxlbSB7CiAgICAgICAgICAgICAgICBjb2xvciAjQ0MyMjIyCiAgICAgICAgICAgIH0KICAgICAgICB9CgoKICAgICAgICB0ZXJtaW5vbG9neSB7CiAgICAgICAgICAgIGVudGVycHJpc2UgItCe0YDQs9Cw0L3QuNC30LDRhtC40Y8iCiAgICAgICAgICAgIHBlcnNvbiAi0J/QvtC70YzQt9C+0LLQsNGC0LXQu9GMIgogICAgICAgICAgICBzb2Z0d2FyZVN5c3RlbSAi0JjQvdGE0L7RgNC80LDRhtC40L7QvdC90LDRjyDRgdC40YHRgtC10LzQsCIKICAgICAgICAgICAgY29udGFpbmVyICLQmtC+0L3RgtC10LnQvdC10YAiCiAgICAgICAgICAgIGNvbXBvbmVudCAi0JrQvtC80L/QvtC90LXQvdGCIgogICAgICAgICAgICBkZXBsb3ltZW50Tm9kZSAi0J3QvtC00LAiCiAgICAgICAgICAgIGluZnJhc3RydWN0dXJlTm9kZSAi0KXQvtGB0YIiCiAgICAgICAgICAgIHJlbGF0aW9uc2hpcCAi0JLQt9Cw0LjQvNC+0LTQtdC50YHRgtCy0LjQtSIKICAgICAgICB9CiAgICB9Cgp9Cg=="
+  },
+  "configuration" : { },
+  "model" : {
+    "people" : [ {
+      "id" : "1",
+      "tags" : "Element,Person",
+      "properties" : {
+        "structurizr.dsl.identifier" : "operator"
+      },
+      "name" : "Гражданин",
+      "description" : "Использует МП для предоставления документов",
+      "relationships" : [ {
+        "id" : "19",
+        "tags" : "Relationship",
+        "properties" : {
+          "structurizr.dsl.identifier" : "a6675941-f891-4477-884f-bd418b82c82e"
+        },
+        "sourceId" : "1",
+        "destinationId" : "6",
+        "description" : "Взаимодействует с приложением",
+        "technology" : "Физически"
+      }, {
+        "id" : "20",
+        "tags" : "Relationship",
+        "properties" : {
+          "structurizr.dsl.identifier" : "6376a231-7b12-4ac3-abfb-f1955c3f6fdc"
+        },
+        "sourceId" : "1",
+        "destinationId" : "7",
+        "description" : "Взаимодействует с приложением",
+        "technology" : "Физически"
+      }, {
+        "id" : "18",
+        "tags" : "Relationship",
+        "properties" : {
+          "structurizr.dsl.identifier" : "c7193d94-89c7-4dc1-b8d0-a6a9b4e7f789"
+        },
+        "sourceId" : "1",
+        "destinationId" : "5",
+        "description" : "Взаимодействует с приложением",
+        "technology" : "Физически"
+      } ],
+      "location" : "Unspecified"
+    } ],
+    "softwareSystems" : [ {
+      "id" : "4",
+      "tags" : "Element,Software System",
+      "properties" : {
+        "structurizr.dsl.identifier" : "splunk"
+      },
+      "name" : "Система журналирования (Splunk)",
+      "description" : "Обеспечивает сохранение журналов действий пользователей",
+      "location" : "Unspecified",
+      "documentation" : { }
+    }, {
+      "id" : "5",
+      "tags" : "Element,Software System,Москва",
+      "properties" : {
+        "structurizr.dsl.identifier" : "mpandroid"
+      },
+      "name" : "Мобильное приложение  (Android)",
+      "description" : "Предоставляет доступ к документам из профиля гражданина (Kotlin)",
+      "relationships" : [ {
+        "id" : "25",
+        "tags" : "Relationship",
+        "properties" : {
+          "structurizr.dsl.identifier" : "842cce27-c8e4-41b1-a3bd-99e56ee122d8"
+        },
+        "sourceId" : "5",
+        "destinationId" : "3",
+        "description" : "3. Аутентификация по редиректу",
+        "technology" : "HTTPS"
+      }, {
+        "id" : "33",
+        "tags" : "Relationship",
+        "properties" : {
+          "structurizr.dsl.identifier" : "dfc5a4c7-c5ba-4ad2-8f30-19ad64510078"
+        },
+        "sourceId" : "5",
+        "destinationId" : "9",
+        "description" : "Запрос сведений пользователя для отображения",
+        "technology" : "REST"
+      }, {
+        "id" : "34",
+        "sourceId" : "5",
+        "destinationId" : "8",
+        "description" : "Запрос сведений пользователя для отображения",
+        "technology" : "REST",
+        "linkedRelationshipId" : "33"
+      } ],
+      "location" : "Unspecified",
+      "documentation" : { }
+    }, {
+      "id" : "6",
+      "tags" : "Element,Software System,Москва",
+      "properties" : {
+        "structurizr.dsl.identifier" : "mpios"
+      },
+      "name" : "Мобильное приложение (iOS)",
+      "description" : "Предоставляет доступ к документам из профиля гражданина (Swift)",
+      "relationships" : [ {
+        "id" : "26",
+        "tags" : "Relationship",
+        "properties" : {
+          "structurizr.dsl.identifier" : "14e7cc55-bd46-4d5e-b957-d085cdc7c16e"
+        },
+        "sourceId" : "6",
+        "destinationId" : "3",
+        "description" : "3. Аутентификация по редиректу",
+        "technology" : "HTTPS"
+      }, {
+        "id" : "36",
+        "sourceId" : "6",
+        "destinationId" : "8",
+        "description" : "Запрос сведений пользователя для отображения",
+        "technology" : "REST",
+        "linkedRelationshipId" : "35"
+      }, {
+        "id" : "35",
+        "tags" : "Relationship",
+        "properties" : {
+          "structurizr.dsl.identifier" : "539d8340-d750-46b3-b0ca-3fe401b89393"
+        },
+        "sourceId" : "6",
+        "destinationId" : "9",
+        "description" : "Запрос сведений пользователя для отображения",
+        "technology" : "REST"
+      } ],
+      "location" : "Unspecified",
+      "documentation" : { }
+    }, {
+      "id" : "2",
+      "tags" : "Element,Software System,Москва",
+      "properties" : {
+        "structurizr.dsl.identifier" : "czp"
+      },
+      "name" : "СЗП (система заявок пользователей)",
+      "description" : "Предоставляет сведения о гражданине по токену СУУ",
+      "location" : "Unspecified",
+      "documentation" : { }
+    }, {
+      "id" : "7",
+      "tags" : "Element,Software System,Москва",
+      "properties" : {
+        "structurizr.dsl.identifier" : "mphuawei"
+      },
+      "name" : "Мобильное приложение  (Huawei)",
+      "description" : "Предоставляет доступ к документам из профиля гражданина на смарфонах Huawei (Kotlin)",
+      "relationships" : [ {
+        "id" : "27",
+        "tags" : "Relationship",
+        "properties" : {
+          "structurizr.dsl.identifier" : "c1c49ebc-3662-4ef7-bd05-fb89a5cfcef8"
+        },
+        "sourceId" : "7",
+        "destinationId" : "3",
+        "description" : "3. Аутентификация по редиректу",
+        "technology" : "HTTPS"
+      }, {
+        "id" : "37",
+        "tags" : "Relationship",
+        "properties" : {
+          "structurizr.dsl.identifier" : "09d396b6-b506-4a83-ba08-5e5ea9e17fc0"
+        },
+        "sourceId" : "7",
+        "destinationId" : "9",
+        "description" : "Запрос сведений пользователя для отображения",
+        "technology" : "REST"
+      }, {
+        "id" : "38",
+        "sourceId" : "7",
+        "destinationId" : "8",
+        "description" : "Запрос сведений пользователя для отображения",
+        "technology" : "REST",
+        "linkedRelationshipId" : "37"
+      } ],
+      "location" : "Unspecified",
+      "documentation" : { }
+    }, {
+      "id" : "3",
+      "tags" : "Element,Software System,Москва",
+      "properties" : {
+        "structurizr.dsl.identifier" : "suu"
+      },
+      "name" : "СУУ (система учета пользователей)",
+      "description" : "Проводит аутентификацию пользователей",
+      "location" : "Unspecified",
+      "documentation" : { }
+    }, {
+      "id" : "8",
+      "tags" : "Element,Software System,Москва",
+      "properties" : {
+        "structurizr.dsl.identifier" : "mp"
+      },
+      "name" : "Мобильное приложение (бэкенд)",
+      "description" : "Обеспечивает выполнение бизнес функций приложения (Django, python)",
+      "relationships" : [ {
+        "id" : "22",
+        "tags" : "Relationship",
+        "properties" : {
+          "structurizr.dsl.identifier" : "4s"
+        },
+        "sourceId" : "8",
+        "destinationId" : "3",
+        "description" : "4. Получение атрибутов пользователя системы учета пользователей",
+        "technology" : "REST"
+      }, {
+        "id" : "23",
+        "tags" : "Relationship",
+        "properties" : {
+          "structurizr.dsl.identifier" : "5s"
+        },
+        "sourceId" : "8",
+        "destinationId" : "2",
+        "description" : "5. Запрос и предоставление сведений пользователя системы заявок пользователей",
+        "technology" : "REST"
+      }, {
+        "id" : "24",
+        "tags" : "Relationship",
+        "properties" : {
+          "structurizr.dsl.identifier" : "9s"
+        },
+        "sourceId" : "8",
+        "destinationId" : "4",
+        "description" : "9. Журналирование",
+        "technology" : "stdout"
+      }, {
+        "id" : "21",
+        "tags" : "Relationship",
+        "properties" : {
+          "structurizr.dsl.identifier" : "1s"
+        },
+        "sourceId" : "8",
+        "destinationId" : "3",
+        "description" : "1,2 Аутентификация и работа с токенами пользователей",
+        "technology" : "REST"
+      } ],
+      "location" : "Unspecified",
+      "containers" : [ {
+        "id" : "15",
+        "tags" : "Element,Container,db",
+        "properties" : {
+          "structurizr.dsl.identifier" : "mp_czp_db"
+        },
+        "name" : "1.4.1 Сервисная БД",
+        "description" : "Хранит схему данных и справочники для микросервиса",
+        "technology" : "PostgreSQL",
+        "documentation" : { }
+      }, {
+        "id" : "12",
+        "tags" : "Element,Container",
+        "properties" : {
+          "structurizr.dsl.identifier" : "mp_profile"
+        },
+        "name" : "1.3 Микросервис сбора сведений пользователя",
+        "description" : "Получает сведения о пользователях из внешних источников и сохраняет их в хранилище",
+        "relationships" : [ {
+          "id" : "44",
+          "tags" : "Relationship",
+          "properties" : {
+            "structurizr.dsl.identifier" : "23"
+          },
+          "sourceId" : "12",
+          "destinationId" : "13",
+          "description" : "23. Чтение, сохранение и удаление сведений пользователя",
+          "technology" : "noSQL"
+        }, {
+          "id" : "48",
+          "tags" : "Relationship",
+          "properties" : {
+            "structurizr.dsl.identifier" : "24c3"
+          },
+          "sourceId" : "12",
+          "destinationId" : "13",
+          "description" : "24. Получение/обновление схемы данных, справочников",
+          "technology" : "SQL"
+        }, {
+          "id" : "42",
+          "tags" : "Relationship",
+          "properties" : {
+            "structurizr.dsl.identifier" : "21c1"
+          },
+          "sourceId" : "12",
+          "destinationId" : "14",
+          "description" : "21. Запрос сведений по пользователю",
+          "technology" : "REST"
+        }, {
+          "id" : "46",
+          "tags" : "Relationship",
+          "properties" : {
+            "structurizr.dsl.identifier" : "4c2"
+          },
+          "sourceId" : "12",
+          "destinationId" : "16",
+          "description" : "4. Запрос атрибутов пользователя системы учета пользователей",
+          "technology" : "REST"
+        }, {
+          "id" : "31",
+          "tags" : "Relationship",
+          "properties" : {
+            "structurizr.dsl.identifier" : "9c2"
+          },
+          "sourceId" : "12",
+          "destinationId" : "4",
+          "description" : "9. Журналирование",
+          "technology" : "stdout, json"
+        } ],
+        "technology" : "Django, python",
+        "documentation" : { }
+      }, {
+        "id" : "10",
+        "tags" : "Element,Container,db",
+        "properties" : {
+          "structurizr.dsl.identifier" : "mp_core_db"
+        },
+        "name" : "1.1.1 Общее хранилище",
+        "description" : "Хранит настройки пользователя и журналы",
+        "technology" : "PostgreSQL",
+        "documentation" : { }
+      }, {
+        "id" : "9",
+        "tags" : "Element,Container",
+        "properties" : {
+          "structurizr.dsl.identifier" : "mp_mpcore"
+        },
+        "name" : "1.1 Серверная часть МП ПДСУ",
+        "description" : "Обеспечивает работу мобильного приложения и базовые функции",
+        "relationships" : [ {
+          "id" : "43",
+          "tags" : "Relationship",
+          "properties" : {
+            "structurizr.dsl.identifier" : "21c2"
+          },
+          "sourceId" : "9",
+          "destinationId" : "12",
+          "description" : "21. Запрос сведений по пользователю",
+          "technology" : "REST"
+        }, {
+          "id" : "39",
+          "tags" : "Relationship",
+          "properties" : {
+            "structurizr.dsl.identifier" : "19c"
+          },
+          "sourceId" : "9",
+          "destinationId" : "11",
+          "description" : "19. Обновление сведений о сессиях",
+          "technology" : "noSQL"
+        }, {
+          "id" : "40",
+          "tags" : "Relationship",
+          "properties" : {
+            "structurizr.dsl.identifier" : "20c"
+          },
+          "sourceId" : "9",
+          "destinationId" : "10",
+          "description" : "20. Сохраняет информацию о настройках пользователей, получает схему данных, журналирует входы пользователей",
+          "technology" : "SQL"
+        }, {
+          "id" : "28",
+          "tags" : "Relationship",
+          "properties" : {
+            "structurizr.dsl.identifier" : "1c"
+          },
+          "sourceId" : "9",
+          "destinationId" : "3",
+          "description" : "1,2 Проверка сессии системы учета пользователей",
+          "technology" : "REST"
+        }, {
+          "id" : "30",
+          "tags" : "Relationship",
+          "properties" : {
+            "structurizr.dsl.identifier" : "9c1"
+          },
+          "sourceId" : "9",
+          "destinationId" : "4",
+          "description" : "9. Журналирование",
+          "technology" : "stdout, json"
+        } ],
+        "technology" : "Django, python",
+        "documentation" : { }
+      }, {
+        "id" : "16",
+        "tags" : "Element,Container",
+        "properties" : {
+          "structurizr.dsl.identifier" : "mp_suu_data"
+        },
+        "name" : "1.5 Микросервис получения атрибутов пользователя системы учета пользователей",
+        "description" : "Обеспечивает первичное получение сведений о пользователе из системы учета пользователей",
+        "relationships" : [ {
+          "id" : "49",
+          "tags" : "Relationship",
+          "properties" : {
+            "structurizr.dsl.identifier" : "9c7"
+          },
+          "sourceId" : "16",
+          "destinationId" : "4",
+          "description" : "9. Журналирование",
+          "technology" : "stdout, json"
+        }, {
+          "id" : "41",
+          "tags" : "Relationship",
+          "properties" : {
+            "structurizr.dsl.identifier" : "4c1"
+          },
+          "sourceId" : "16",
+          "destinationId" : "3",
+          "description" : "4. Получение атрибутов пользователя системы учета пользователей",
+          "technology" : "REST"
+        }, {
+          "id" : "47",
+          "tags" : "Relationship",
+          "properties" : {
+            "structurizr.dsl.identifier" : "24c2"
+          },
+          "sourceId" : "16",
+          "destinationId" : "17",
+          "description" : "24. Получение/обновление схемы данных, справочников",
+          "technology" : "SQL"
+        } ],
+        "technology" : "Django, python",
+        "documentation" : { }
+      }, {
+        "id" : "17",
+        "tags" : "Element,Container,db",
+        "properties" : {
+          "structurizr.dsl.identifier" : "mp_suu_data_db"
+        },
+        "name" : "1.5.1 Сервисная БД",
+        "description" : "Хранит схему данных и справочники для микросервиса",
+        "technology" : "PostgreSQL",
+        "documentation" : { }
+      }, {
+        "id" : "13",
+        "tags" : "Element,Container,db",
+        "properties" : {
+          "structurizr.dsl.identifier" : "mp_profile_db"
+        },
+        "name" : "1.3.1 Хранилище сведений пользователей",
+        "description" : "Хранит данные пользователей по сессиям",
+        "technology" : "Redis",
+        "documentation" : { }
+      }, {
+        "id" : "11",
+        "tags" : "Element,Container,db",
+        "properties" : {
+          "structurizr.dsl.identifier" : "mp_session_redis"
+        },
+        "name" : "1.1.2 Хранилище сессий пользователей",
+        "description" : "Хранит сведения по сессиям",
+        "technology" : "Redis",
+        "documentation" : { }
+      }, {
+        "id" : "14",
+        "tags" : "Element,Container",
+        "properties" : {
+          "structurizr.dsl.identifier" : "mp_czp"
+        },
+        "name" : "1.4 Микросервис получения сведений системы заявок пользователей",
+        "description" : "Делает запросы в системы заявок пользователей",
+        "relationships" : [ {
+          "id" : "32",
+          "tags" : "Relationship",
+          "properties" : {
+            "structurizr.dsl.identifier" : "9c3"
+          },
+          "sourceId" : "14",
+          "destinationId" : "4",
+          "description" : "9. Журналирование",
+          "technology" : "stdout, json"
+        }, {
+          "id" : "29",
+          "tags" : "Relationship",
+          "properties" : {
+            "structurizr.dsl.identifier" : "5_1c"
+          },
+          "sourceId" : "14",
+          "destinationId" : "2",
+          "description" : "5. Запрос и предоставление сведений пользователя системы заявок пользователей",
+          "technology" : "REST"
+        }, {
+          "id" : "45",
+          "tags" : "Relationship",
+          "properties" : {
+            "structurizr.dsl.identifier" : "24c1"
+          },
+          "sourceId" : "14",
+          "destinationId" : "15",
+          "description" : "24. Получение/обновление схемы данных, справочников",
+          "technology" : "SQL"
+        } ],
+        "technology" : "Django, python",
+        "documentation" : { }
+      } ],
+      "documentation" : { }
+    } ]
+  },
+  "documentation" : { },
+  "views" : {
+    "systemLandscapeViews" : [ {
+      "key" : "mp-01-SystemLandscape",
+      "order" : 1,
+      "title" : "[мобильное приложение-01] Схема системного ландшафта работы мобильного приложения",
+      "description" : "Системный ландшафт",
+      "dimensions" : {
+        "width" : 2725,
+        "height" : 2504
+      },
+      "enterpriseBoundaryVisible" : true,
+      "elements" : [ {
+        "id" : "1",
+        "x" : 1325,
+        "y" : 199
+      }, {
+        "id" : "2",
+        "x" : 200,
+        "y" : 1999
+      }, {
+        "id" : "3",
+        "x" : 1700,
+        "y" : 1999
+      }, {
+        "id" : "4",
+        "x" : 950,
+        "y" : 1999
+      }, {
+        "id" : "5",
+        "x" : 575,
+        "y" : 799
+      }, {
+        "id" : "6",
+        "x" : 1325,
+        "y" : 799
+      }, {
+        "id" : "7",
+        "x" : 2075,
+        "y" : 799
+      }, {
+        "id" : "8",
+        "x" : 1021,
+        "y" : 1399
+      } ],
+      "relationships" : [ {
+        "id" : "21",
+        "vertices" : [ {
+          "x" : 1684,
+          "y" : 1736
+        } ]
+      }, {
+        "id" : "20"
+      }, {
+        "id" : "18"
+      }, {
+        "id" : "27"
+      }, {
+        "id" : "26"
+      }, {
+        "id" : "25",
+        "vertices" : [ {
+          "x" : 871,
+          "y" : 1699
+        } ]
+      }, {
+        "id" : "36"
+      }, {
+        "id" : "24"
+      }, {
+        "id" : "23"
+      }, {
+        "id" : "34"
+      }, {
+        "id" : "22",
+        "vertices" : [ {
+          "x" : 1486,
+          "y" : 1961
+        } ]
+      }, {
+        "id" : "38"
+      }, {
+        "id" : "19"
+      } ]
+    } ],
+    "containerViews" : [ {
+      "key" : "mp-02-Containers",
+      "order" : 2,
+      "title" : "[мобильное приложение-02] Схема контейнеров бэкенда мобильного приложения",
+      "description" : "Диаграмма контейнеров",
+      "softwareSystemId" : "8",
+      "paperSize" : "A2_Landscape",
+      "dimensions" : {
+        "width" : 6150,
+        "height" : 3220
+      },
+      "externalSoftwareSystemBoundariesVisible" : true,
+      "elements" : [ {
+        "id" : "11",
+        "x" : 1617,
+        "y" : 1408
+      }, {
+        "id" : "12",
+        "x" : 2367,
+        "y" : 1408
+      }, {
+        "id" : "13",
+        "x" : 1617,
+        "y" : 2008
+      }, {
+        "id" : "14",
+        "x" : 2367,
+        "y" : 2008
+      }, {
+        "id" : "15",
+        "x" : 2367,
+        "y" : 2608
+      }, {
+        "id" : "16",
+        "x" : 3117,
+        "y" : 2008
+      }, {
+        "id" : "17",
+        "x" : 3117,
+        "y" : 2608
+      }, {
+        "id" : "2",
+        "x" : 995,
+        "y" : 2660
+      }, {
+        "id" : "3",
+        "x" : 4404,
+        "y" : 2608
+      }, {
+        "id" : "4",
+        "x" : 208,
+        "y" : 2608
+      }, {
+        "id" : "5",
+        "x" : 3617,
+        "y" : 208
+      }, {
+        "id" : "6",
+        "x" : 4617,
+        "y" : 208
+      }, {
+        "id" : "7",
+        "x" : 5492,
+        "y" : 208
+      }, {
+        "id" : "9",
+        "x" : 3117,
+        "y" : 808
+      }, {
+        "id" : "10",
+        "x" : 3117,
+        "y" : 1408
+      } ],
+      "relationships" : [ {
+        "id" : "40"
+      }, {
+        "id" : "41"
+      }, {
+        "id" : "42"
+      }, {
+        "id" : "43"
+      }, {
+        "id" : "32",
+        "vertices" : [ {
+          "x" : 2217,
+          "y" : 2308
+        }, {
+          "x" : 808,
+          "y" : 2608
+        } ]
+      }, {
+        "id" : "31",
+        "vertices" : [ {
+          "x" : 1467,
+          "y" : 2008
+        } ]
+      }, {
+        "id" : "30",
+        "vertices" : [ {
+          "x" : 1467,
+          "y" : 1408
+        }, {
+          "x" : 1000,
+          "y" : 2008
+        } ]
+      }, {
+        "id" : "29",
+        "vertices" : [ {
+          "x" : 2217,
+          "y" : 2308
+        } ]
+      }, {
+        "id" : "28",
+        "vertices" : [ {
+          "x" : 3717,
+          "y" : 1408
+        } ]
+      }, {
+        "id" : "27",
+        "vertices" : [ {
+          "x" : 5087,
+          "y" : 2308
+        } ]
+      }, {
+        "id" : "26",
+        "vertices" : [ {
+          "x" : 4858,
+          "y" : 704
+        }, {
+          "x" : 4858,
+          "y" : 2308
+        } ]
+      }, {
+        "id" : "37",
+        "vertices" : [ {
+          "x" : 5217,
+          "y" : 508
+        } ]
+      }, {
+        "id" : "25",
+        "vertices" : [ {
+          "x" : 4458,
+          "y" : 2008
+        } ]
+      }, {
+        "id" : "35"
+      }, {
+        "id" : "33"
+      }, {
+        "id" : "44",
+        "vertices" : [ {
+          "x" : 2123,
+          "y" : 1740
+        } ]
+      }, {
+        "id" : "45"
+      }, {
+        "id" : "46"
+      }, {
+        "id" : "47"
+      }, {
+        "id" : "48",
+        "vertices" : [ {
+          "x" : 2310,
+          "y" : 1975
+        } ]
+      }, {
+        "id" : "49",
+        "vertices" : [ {
+          "x" : 2967,
+          "y" : 2308
+        }, {
+          "x" : 808,
+          "y" : 2608
+        } ]
+      }, {
+        "id" : "39"
+      } ]
+    } ],
+    "configuration" : {
+      "branding" : { },
+      "styles" : {
+        "elements" : [ {
+          "tag" : "Person",
+          "background" : "#08427b",
+          "color" : "#ffffff",
+          "shape" : "Person"
+        }, {
+          "tag" : "db",
+          "shape" : "Cylinder"
+        }, {
+          "tag" : "Москва",
+          "background" : "#cc2222",
+          "color" : "#ffffff"
+        } ],
+        "relationships" : [ {
+          "tag" : "problem",
+          "color" : "#cc2222"
+        } ]
+      },
+      "terminology" : {
+        "enterprise" : "Организация",
+        "person" : "Пользователь",
+        "softwareSystem" : "Информационная система",
+        "container" : "Контейнер",
+        "component" : "Компонент",
+        "deploymentNode" : "Нода",
+        "infrastructureNode" : "Хост",
+        "relationship" : "Взаимодействие"
+      },
+      "metadataSymbols" : "SquareBrackets",
+      "lastSavedView" : "mp-02-Containers"
+    }
+  }
+}

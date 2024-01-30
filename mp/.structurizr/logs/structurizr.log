@@ -1,0 +1,26 @@
+[INFO ] 2022-08-18 07:56:41.471 [main] Configuration - ***********************************************************************************
+[INFO ] 2022-08-18 07:56:41.478 [main] Configuration -    _____ _                   _              _          
+[INFO ] 2022-08-18 07:56:41.478 [main] Configuration -   / ____| |                 | |            (_)         
+[INFO ] 2022-08-18 07:56:41.479 [main] Configuration -  | (___ | |_ _ __ _   _  ___| |_ _   _ _ __ _ _____ __ 
+[INFO ] 2022-08-18 07:56:41.480 [main] Configuration -   \___ \| __| '__| | | |/ __| __| | | | '__| |_  / '__|
+[INFO ] 2022-08-18 07:56:41.480 [main] Configuration -   ____) | |_| |  | |_| | (__| |_| |_| | |  | |/ /| |   
+[INFO ] 2022-08-18 07:56:41.481 [main] Configuration -  |_____/ \__|_|   \__,_|\___|\__|\__,_|_|  |_/___|_|   
+[INFO ] 2022-08-18 07:56:41.482 [main] Configuration -                                                        
+[INFO ] 2022-08-18 07:56:41.482 [main] Configuration -  Structurizr Lite
+[INFO ] 2022-08-18 07:56:41.485 [main] Configuration -  Build: 2780
+[INFO ] 2022-08-18 07:56:41.486 [main] Configuration -  Built: 2022-08-17T13:17:32Z
+[INFO ] 2022-08-18 07:56:41.505 [main] Configuration -  Structurizr DSL: v1.20.0
+[INFO ] 2022-08-18 07:56:41.506 [main] Configuration - 
+[INFO ] 2022-08-18 07:56:41.507 [main] Configuration -  Workspace path: /usr/local/structurizr
+[INFO ] 2022-08-18 07:56:41.508 [main] Configuration -  URL: 
+[INFO ] 2022-08-18 07:56:41.517 [main] Configuration -  Memory: used=98MB; free=157MB; total=256MB; max=256MB
+[INFO ] 2022-08-18 07:56:41.518 [main] Configuration - ***********************************************************************************
+[ERROR] 2022-08-18 08:00:38.890 [http-nio-8080-exec-8] ApiController - com.structurizr.lite.web.HttpUnauthorizedException: Incorrect API key
+[ERROR] 2022-08-18 08:00:38.891 [http-nio-8080-exec-8] ApiController - com.structurizr.lite.web.HttpUnauthorizedException: Incorrect API key
+[ERROR] 2022-08-18 08:00:44.137 [http-nio-8080-exec-10] ApiController - com.structurizr.lite.web.HttpUnauthorizedException: Incorrect API key
+[ERROR] 2022-08-18 08:00:44.145 [http-nio-8080-exec-10] ApiController - com.structurizr.lite.web.HttpUnauthorizedException: Incorrect API key
+[ERROR] 2022-08-18 08:00:49.377 [http-nio-8080-exec-2] ApiController - com.structurizr.lite.web.HttpUnauthorizedException: Incorrect API key
+[ERROR] 2022-08-18 08:00:49.378 [http-nio-8080-exec-2] ApiController - com.structurizr.lite.web.HttpUnauthorizedException: Incorrect API key
+[INFO ] 2022-08-18 08:11:05.694 [Thread-2] Configuration - ********************************************************
+[INFO ] 2022-08-18 08:11:05.695 [Thread-2] Configuration -  Stopping Structurizr Lite
+[INFO ] 2022-08-18 08:11:05.696 [Thread-2] Configuration - ********************************************************
